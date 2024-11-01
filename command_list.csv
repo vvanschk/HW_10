@@ -1,1 +1,51 @@
 tory
+    1  git config --global user.name "Anastasia Serednia"
+    2  git config --global user.email anastasiaseredna@gmail.com
+    3  git clone https://github.com/SeredniaAnastasia/HW_10.git
+    4  cd HW_10
+    5  touch text_ignore.txt
+    6  nano .gitignore
+    7  git status
+    8  git add .
+    9  git commit -m "added file text_ignore.txt"
+   10  touch main_test.txt
+   11  git add .
+   12  git commit -m "added file main_test.txt"
+   13  git branch develop
+   14  git checkout develop
+   15  touch develop_test.txt
+   16  git add .
+   17  git commit -m "added file develop_test.txt"
+   18  nano develop_test.txt
+   19  nano develop_test.txt
+   20  git status
+   21  git add .
+   22  git commit -m "changed file develop_test.txt"
+   23  git status
+   24  -c && rm ~/.bash_history
+   25  rm ~/.bash_history
+   26  git config --global user.name "Anastasia Serenia"
+   27  git config --global user.email anastasiaseredna@gmail.com
+   28  git clone https://github.com/SeredniaAnastasia/HW_10.git
+   29  cd HW_10
+   30  touch text_ignore.txt
+   31  nano  .gitignore
+   32  git status
+   33  git add .
+   34  git commit -m "added file text_ignore.txt"
+   35  touch main_test.txt
+   36  git add .
+   37  git commit -m "added file main_test.txt"
+   38  git branch develop
+   39  git checkout develop
+   40  touch develop_test.txt
+   41  git add .
+   42  git commit -m "added file develop_test.txt"
+   43  nano develop_test.txt
+   44  git status
+   45  git add .
+   46  git commit -m "update file develop_test.txt"
+   47  git checkout main
+   48  git merge develop
+   49  git log
+   50  history > command_list.csv
